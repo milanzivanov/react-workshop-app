@@ -4,7 +4,6 @@ import { useParams } from "react-router-dom";
 
 function Product({ products }) {
   const params = useParams();
-  console.log(params);
 
   let product = products.find((product) => product.id == +params.id);
 
