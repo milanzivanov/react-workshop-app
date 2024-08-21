@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 function Navbar() {
   const location = useLocation();
@@ -12,7 +13,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container">
         <Link className="navbar-brand" href="#">
-          <img src="/logo.png" alt="logo sajta" />
+          <img src={logo} alt="logo sajta" />
         </Link>
         <button
           className="navbar-toggler"
