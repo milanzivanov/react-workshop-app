@@ -14,7 +14,7 @@ function Footer() {
         <Link to="/products" className="nav-link">
           Products
         </Link>
-        <Link to="" className="nav-link">
+        <Link to="/shop" className="nav-link">
           Shop
         </Link>
       </nav>
